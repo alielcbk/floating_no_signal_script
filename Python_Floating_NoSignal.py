@@ -11,7 +11,7 @@ GPIO.setup(24, GPIO.OUT)
 GPIO.output(24, GPIO.LOW)
 
 def toggle():
-  if GPIO.input(24):
+	if GPIO.input(24):
 		GPIO.output(24, GPIO.LOW)
 		toggleButton["text"] = "Turn LED On"
 	else:
