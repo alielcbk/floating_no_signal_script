@@ -1,5 +1,5 @@
-from Tkinter import *
 import turtle
+from Tkinter import *
 import random
 import math
 # Tkinter and GPIO together
