@@ -1,4 +1,8 @@
 import turtle
+import random
+import math
+# Tkinter and GPIO together
+
 from Tkinter import *
 import RPi.GPIO as GPIO
 
@@ -23,9 +27,6 @@ quitButton = Button(root, text="Quit", command=exit)
 quitButton.pack(side=LEFT)
 
 root.mainloop()
-import random
-import math
-
 #Let us set up the turtle screen
 canvas = turtle.Screen()
 canvas.bgcolor("black")
