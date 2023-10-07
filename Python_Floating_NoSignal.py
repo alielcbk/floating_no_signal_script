@@ -1,9 +1,9 @@
+from Tkinter import *
 import turtle
 import random
 import math
 # Tkinter and GPIO together
 
-from Tkinter import *
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
